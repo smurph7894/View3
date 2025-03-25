@@ -1,177 +1,187 @@
-<div>
-    <div>
-      <br/>
-      <br/>
-      </div>
-      <h1 class="text-white">Dev 320 - Group Project</h1>
-      <br/>
-      <h5 style="color:white" >NavLinks</h5>
-      <a href="./" class="btn btn-primary">Main/Bio</a>
-      <a href="./resources" class="btn btn-primary">Resources</a>
-      <a href="http://sarahmurphree.ddns.net/http-server" class="btn btn-primary">Vanilla Http-Server</a>
-      <br/><br/>
-      <h2 style="color:white">StockMyFoodBank</h2>
-      <br/>
-      <div class="row">
-              <ol>
-                  <ul>
-                      <h6 >Our Project - StockMyFoodBank</h6>
-                      <p>
-                        The proposed web application is tailored for a local food bank to collect helpful feedback on the popularity of both currently stocked 
-                        and potential food items. Our main aim is to assist food bank managers in selecting items that are well-liked and less likely to expire, 
-                        ultimately enhancing inventory management.
-                      </p>
-                      <p>
-                        This prototype version of the web app will have only basic functionality. Users will view a page split into two columns. One column will have a list of 
-                        food items being considered by the food bank. The other column will have the question “Would you select this item during a visit?” with three 
-                        response options next to each food item: “Yes,” “No,” and “Skip.” Users can select “Yes” or “No” for as many items as they wish, or choose to 
-                        skip an item without voting. At the bottom of the page, there will be a freeform comment section where users can provide feedback or suggest dietary 
-                        preferences, additional food items, or other relevant concerns. Submitting will increment a “Yes” or “No” counter for each item voted on. A separate 
-                        page will display the results using the same format, with counts of Yes and No votes replacing Yes and No buttons and all comments submitted underneath.
 
-                        **Full System Summary**
-
-                        **Voting Mechanism:**
-                        Clients engage in a multi-option voting process rather than a binary Yes/No selection. Choices include: “Never,” “Yearly,” “Every 6 Months,” “Every Few Months,” 
-                        “Monthly,” “Bi-Weekly,” and “Weekly.” Furthermore, clients have the option to abstain from voting on any specific item.
-
-                        **Filtering & Sorting:**
-                        Users can organize and filter food items according to:
-
-                            **Dietary Restrictions/Allergens:** Dairy, Eggs, Nuts, Soy, Wheat, Shellfish, Fish, Sesame.
-
-                            **Dietary Preferences:** Vegan, Pescatarian, Vegetarian, Keto, Paleo, Mediterranean, Low-Carb, Whole, Low-FODMAP, Low-Salt. 
-                            A toggle functionality allows users to display only food items that are free from their designated allergens. Items that do not meet the criteria are 
-                            categorized as “Never” and “Skip” in the dietary preference filtering.
-
-                        **User Interaction:**
-                        Clients are able to submit comments to provide supplementary feedback, raise dietary concerns, or propose suggestions. Each user will maintain a profile 
-                        to store personal information and dietary preferences, thereby enhancing future interactions.
-
-                        **Results & Administration:**
-                        A publicly available results page will present aggregated vote counts, with voting buttons substituted by numerical totals. Food bank managers will utilize 
-                        these insights, in conjunction with external factors (such as cost and transport logistics), to make well-informed decisions. Administrators will also have 
-                        the authority to manage the list of food items.
-
-                        **Future Interactions **
-                        We would like to include an inventory option in future to add additional data for the food banks to be able to most effectively use what they have to serve the most people.
-
-                        Models:
-                        Class Diagram - 
-
-                        Use Case Diagram -
-
-                        Sequence Diagram - 
-
-                        Considerations:
-                        For this project we wanted to use languages and a majority of technologies we were familiar with.
-
-                        Technologies:
-                            Languages:
-                                JavaScript
-                                C#
-                            Frameworks:
-                                Vite React
-                                ASP.net Web API
-                            Database:
-                                SQLite
-                            Testing:
-                                xUnit
-                                Jest
-                                React Testing Library
-
-                        Developer - Team Role - Area of Work:
-                            Sarah Murphree - Lead - Planning Documents, Configuration, FrontEnd, Backend, Test, Deployment
-                            Sally Nyambura - Scribe - Planning Documents, FrontEnd
-                            Mitchell Cornett - Documentation - Original Idea, Planning Documents, Backend, Spoontacular API Configuration
-
-                            Our team developed in a agile style with weekly sprint meetings and retrospectives and developed tickets we assigned out created based on our user stories. Due to 
-                            this being my teammates first full stack web application, I took lead and guidance position as possible. To start our coding portion we divided up the project into 
-                            areas of interest, with Mitchell taking a first stab at the backend, Sally the frontend, and myself into a pair-programmer and guidance role after I had walked them 
-                            through the inital configuration. As Sally and Mitchell found their feet and to hit assignment deadlines, I took on debugging, coding components, etc. As the prototype 
-                            was completed I then took on the unit testing and deployment. 
-                        
-                        Additionally, talk 
-                          about the experience of getting there, including project management experiences. How did 
-                          you and your team get stuff done?  How did you break up the work? How did you bring your 
-                          output together for a working unit/system?
-                      </p>
-                  </ul>
-                  <br/>
-                  <ul>
-                      <h6>Project Experience</h6>
-                      <p>
-                          What did you learn during this experience?
-                          This was my first time using separate languages from frontend to backend and it was less complicated to configure than I thought. 
-                          This was also my first time doing frontend unit tests and I got to learn how to do unit tests with Jest.
-
-                          What does what you experienced mean to you?
-                          This was my first time working in a team of differing skill levels. The main experience, outside of learning Jest, that I gained from 
-                          this was learning how to lead a team while balancing the skill levels. For this project, I had not experienced that before and so potenitally 
-                          shot too high for the MVP. In the event of a next time I would definitely coach the project in a different, simpler direction. 
-
-                          How does the meaning that you have derived from these experiences fit into your academic pursuits, your 
-                          career and life goals, as well as your community and society as a whole?
-                            As far as academics, this project was a lesson for how future class projects could go and will guide which teams I might join and if in a lead 
-                            position, how I might lead. My main goal right now, is to land a internship and ultimately a dev 1 position as a software developer. This project 
-                            gave me a chance to practice front end unit tests in one of the most popular testing frameworks which will be valuable for future jobs. It was also
-                            more experience building full-stack applications and my first one in a compiled language. 
-
-                          What strengths did you learn from this experience? 
-                          I learned that I am good at thinking single responsibility in the planning stage. I was also glad for all my previous experience as I felt it helped me to 
-                          advise the team on the project and feel comfortable taking on learning new technologies. 
-
-                          What were the humbling moments and how did you break through?
-                          Trying to configure Jest and React Testing Library with vite was very humbling. None of their getting started tutorials worked and all but the final tutorial
-                           we found offered solutions. I acknowledge that I'm still a beginner dev, so when nothing was working I reached out to my mentor to consult and help me find a 
-                           tutorial and debug as I configured the project. Another humbling experience was the actual coding of our MVP. I had advised that I didn't think our prototype
-                            was too complex but upon coding and getting our project completed. I reviewed some of the inital full-stack projects I had completed and realized that they were
-                            less complex and required less components. In the end, I took on coding quite a bit of the project to finish by the deadline. 
-
-                          What are the next steps for the project?  What remains from your original vision for further development?
-                        For a full prototype the only remaining feature to finish would be to test a filter feature and integrating user roles. For what would be needed for the complete 
-                        solution, see the above full system summary. 
-
-                      </p>
-                  </ul>
-                  <br/>
-                  <ul>
-                      <h6>Advice & Lessons Learned</h6>
-                      <p>
-                          - When developing a full-stack project in a group with beginners, it can be helpful to find or build the project structure 
-                          based on a tutorial and use popular systems so there are many resources available.
-                          - Configure Jest at the beginning of the project configuration process as it can be difficult to do once code is established 
-                          and it's better practice to write the unit tests as you go.
-                      </p>
-                  </ul>
-                  <br/>
-                  <ul>
-                      <h6>Link to Our Project</h6>
-                      <p>
-                          <a href="">StockMyFoodBank</a>
-                          <a href="/assets/Project Proposal.docx" download>
-                            <button class="btn"><i class="fa fa-download"></i> Download</button>
-                          </a>
-                          <br/>
-                          How to Run Locally:
-
-                          Run Client 
-                         
-                            ```javascript
-                            cd client
-                            npm i 
-                            npm i --save bootstrap @popperjs/core
-                            npm i --save-dev sass
-                            npm start
-
-                          Run Server
-                          ```C#
-
-                      </p>
-                  </ul>
-              </ol>
-              </div>
+<div class="container-fluid row d-flex p-2 m-0">
+  <h1 class="text-white mb-3">Dev 320 - Group Project</h1>
+  <div class="row-fluid p-0 ps-2 m-0">
+    <a href="./" class="btn btn-primary">Main/Bio</a>
+    <a href="./resources" class="btn btn-primary">Resources</a>
+    <a href="http://sarahmurphree.ddns.net/http-server" class="btn btn-primary">Vanilla Http-Server</a>
+  </div>
+  <h2 class="mt-4 pt-2 mb-0" style="color:white">StockMyFoodBank</h2>
+  <div class="row d-flex m-0 p-2 ps-4 px-4 pb-4">
+    <div class="card mt-2 rounded border border-primary-subtle border-5 justify-content-center align-items-center" style="background-color: #FFFFFF60;">
+      <div class="card-body col">
+        <div class="row flex-grow">
+          <h5>Our Project - StockMyFoodBank</h6>
+          <p>
+            The proposed web application is tailored for a local food bank to collect helpful feedback on the popularity of both currently stocked 
+            and potential food items. Our main aim is to assist food bank managers in selecting items that are well-liked and less likely to expire, 
+            ultimately enhancing inventory management.
+          </p>
+          <p>
+            This prototype version of the web app will have only basic functionality. Users will view a page split into two columns. One column will have a list of 
+            food items being considered by the food bank. The other column will have the question “Would you select this item during a visit?” with three 
+            response options next to each food item: “Yes,” “No,” and “Skip.” Users can select “Yes” or “No” for as many items as they wish, or choose to 
+            skip an item without voting. At the bottom of the page, there will be a freeform comment section where users can provide feedback or suggest dietary 
+            preferences, additional food items, or other relevant concerns. Submitting will increment a “Yes” or “No” counter for each item voted on. A separate 
+            page will display the results using the same format, with counts of Yes and No votes replacing Yes and No buttons and all comments submitted underneath.
+          </p>
+          <div>
+            <h5>Full System Summary</h5>
+            <h6>Voting Mechanism:</h6>
+            <p>
+              Clients engage in a multi-option voting process rather than a binary Yes/No selection. Choices include: “Never,” “Yearly,” “Every 6 Months,” “Every Few Months,” 
+              “Monthly,” “Bi-Weekly,” and “Weekly.” Furthermore, clients have the option to abstain from voting on any specific item.
+            </p>
+            <h6>Filtering & Sorting:</h6>
+            <p>Users can organize and filter food items according to:</p>
+            <span><h6>Dietary Restrictions/Allergens:</h6>Dairy, Eggs, Nuts, Soy, Wheat, Shellfish, Fish, Sesame.</span>
+            <span><h6>Dietary Preferences:</h6>Vegan, Pescatarian, Vegetarian, Keto, Paleo, Mediterranean, Low-Carb, Whole, Low-FODMAP, Low-Salt. 
+              A toggle functionality allows users to display only food items that are free from their designated allergens. Items that do not meet the criteria are 
+              categorized as “Never” and “Skip” in the dietary preference filtering.</span>
+            <h6>User Interaction:</h6>
+            <p>Clients are able to submit comments to provide supplementary feedback, raise dietary concerns, or propose suggestions. Each user will maintain a profile 
+              to store personal information and dietary preferences, thereby enhancing future interactions.
+            </p>
+            <h6>Results & Administration:</h6>
+            <p>
+              A publicly available results page will present aggregated vote counts, with voting buttons substituted by numerical totals. Food bank managers will utilize 
+              these insights, in conjunction with external factors (such as cost and transport logistics), to make well-informed decisions. Administrators will also have 
+              the authority to manage the list of food items.
+            </p>
+            <h6>Future Interactions:</h6>
+            <p>
+              We would like to include an inventory option in future to add additional data for the food banks to be able to most effectively use what they have to serve the most people.
+            </p>
+            <h5>Models:</h5>
+            <div>
+              <label>Use Case Scenario</label>
+              <img src="/assets/images/UseCaseScenario.jpg" alt="Use Case Scenario"></img>
+            </div>
+            <div>
+              <label>Class Diagram</label>
+              <img src="/assets/images/ClassDiagram.jpg" alt="Class Diagram"></img>
+            </div>
+            <div>
+              <label>Activity Diagram</label>
+              <img src="/assets/images/ActivityDiagram.jpg" alt="Activity Diagram"></img>
+            </div>
+            <div>
+              <label>State Diagram</label>
+              <img src="/assets/images/StateDiagram.jpg" alt="State Diagram"></img>
+            </div>
+            <div>
+              <label>Sequence Diagram</label>
+              <img src="/assets/images/SequenceDiagram.jpg" alt="Sequence Diagram"></img>
+            </div>
+            <div>
+              <label>Entity Relationship Diagram</label>
+              <img src="/assets/images/ERDDiagram.jpg" alt="Entity Relationship Diagram"></img>
+            </div>
           </div>
-      </div>
+          <div>
+            <span><h6>Project Considerations:</h6>For this project we wanted to use languages and a majority of technologies we were familiar with.</span>
+            <h6>Technologies:</h6>
+            <ul>
+              <p>Languages:</p>
+              <li>JavaScript</li>
+              <li>C#</li>
+            </ul>
+            <ul>
+              <p>Frameworks:</p>
+              <li>Vite React</li>
+              <li>ASP.net Web API</li>
+            </ul>
+            <ul>
+              <p>Database:</p>
+              <li>SQLite</li>
+            </ul>
+            <ul>
+              <p>Testing:</p>
+              <li>xUnit</li>
+              <li>Jest</li>
+              <li>React Testing Library</li>
+            </ul>
+          </div>
+          <ul>
+            <h5>Developer - Team Role - Area of Work:</h5>
+            <li>Sarah Murphree - Lead - Planning Documents, Configuration, FrontEnd, Backend, Test, Deployment</li>
+            <li>Sally Nyambura - Scribe - Planning Documents, FrontEnd</li>
+            <li>Mitchell Cornett - Documentation - Original Idea, Planning Documents, Backend, Spoontacular API Configuration</li>
+          </ul>
+          <h6>Link to Our Project</h6>
+          <div>
+              <a href="">StockMyFoodBank</a>
+              <a href="/assets/Project Proposal.docx" download>
+                <button class="btn"><i class="fa fa-download"></i> Download</button>
+              </a>
+              <p>How to Run Locally:</p>
+              <p>Run Client</p>
+              <p>npm i</p>
+              <p>npm i --save bootstrap @popperjs/core</p>
+              <p>npm i --save-dev sass</p>
+              <p></p>            
+              <p></p> 
+              <p>npm start</p>
+              <p>Run Server</p>
+              <p></p>
+              <p></p>
+              <p></p>
+              <p></p>
+              <p></p>
+
+          </div>
+          <div>
+            <h5>Team Running</h5>
+            <p>
+              Our team developed in a agile style with weekly sprint meetings and retrospectives and developed tickets we assigned out created based on our user stories. Due to 
+              this being my teammates first full stack web application, I took lead and guidance position as possible. To start our coding portion we divided up the project into 
+              areas of interest, with Mitchell taking a first stab at the backend, Sally the frontend, and myself into a pair-programmer and guidance role after I had walked them 
+              through the inital configuration. As Sally and Mitchell found their feet and to hit assignment deadlines, I took on debugging, coding components, etc. As the prototype 
+              was completed I then took on the unit testing and deployment.
+            </p>
+            <h6>Project Experience</h6>
+            <p>
+                What did you learn during this experience?
+                This was my first time using separate languages from frontend to backend and it was less complicated to configure than I thought. 
+                This was also my first time doing frontend unit tests and I got to learn how to do unit tests with Jest.
+
+                What does what you experienced mean to you?
+                This was my first time working in a team of differing skill levels. The main experience, outside of learning Jest, that I gained from 
+                this was learning how to lead a team while balancing the skill levels. For this project, I had not experienced that before and so potenitally 
+                shot too high for the MVP. In the event of a next time I would definitely coach the project in a different, simpler direction. 
+
+                How does the meaning that you have derived from these experiences fit into your academic pursuits, your 
+                career and life goals, as well as your community and society as a whole?
+                  As far as academics, this project was a lesson for how future class projects could go and will guide which teams I might join and if in a lead 
+                  position, how I might lead. My main goal right now, is to land a internship and ultimately a dev 1 position as a software developer. This project 
+                  gave me a chance to practice front end unit tests in one of the most popular testing frameworks which will be valuable for future jobs. It was also
+                  more experience building full-stack applications and my first one in a compiled language. 
+
+                What strengths did you learn from this experience? 
+                I learned that I am good at thinking single responsibility in the planning stage. I was also glad for all my previous experience as I felt it helped me to 
+                advise the team on the project and feel comfortable taking on learning new technologies. 
+
+                What were the humbling moments and how did you break through?
+                Trying to configure Jest and React Testing Library with vite was very humbling. None of their getting started tutorials worked and all but the final tutorial
+                  we found offered solutions. I acknowledge that I'm still a beginner dev, so when nothing was working I reached out to my mentor to consult and help me find a 
+                  tutorial and debug as I configured the project. Another humbling experience was the actual coding of our MVP. I had advised that I didn't think our prototype
+                  was too complex but upon coding and getting our project completed. I reviewed some of the inital full-stack projects I had completed and realized that they were
+                  less complex and required less components. In the end, I took on coding quite a bit of the project to finish by the deadline. 
+
+                What are the next steps for the project?  What remains from your original vision for further development?
+              For a full prototype the only remaining feature to finish would be to test a filter feature and integrating user roles. For what would be needed for the complete 
+              solution, see the above full system summary. 
+            </p>
+            <h6>Advice & Lessons Learned</h6>
+            <p>
+                - When developing a full-stack project in a group with beginners, it can be helpful to find or build the project structure 
+                based on a tutorial and use popular systems so there are many resources available.
+                - Configure Jest at the beginning of the project configuration process as it can be difficult to do once code is established 
+                and it's better practice to write the unit tests as you go.
+            </p>
+          </div>
+        </div>
+      </div>  
     </div>
   </div>
+</div>
