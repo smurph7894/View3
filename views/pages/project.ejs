@@ -11,7 +11,16 @@
     <div class="card mt-2 rounded border border-primary-subtle border-5 justify-content-center align-items-center" style="background-color: #FFFFFF60;">
       <div class="card-body col">
         <div class="row flex-grow">
-          <h5>Our Project - StockMyFoodBank</h6>
+          <div class="row">
+            <div class="col col-4">
+              <h5>Our Project - StockMyFoodBank</h6>
+            </div>
+            <div class="col col-8">
+              <span style="font-weight: 600;">
+                Link to our live project - <a href="https://stockmyfoodbank-159895373187.us-west1.run.app/">https://stockmyfoodbank-159895373187.us-west1.run.app/</a>
+              </span>
+            </div>
+          </div>
           <p>
             The proposed web application is tailored for a local food bank to collect helpful feedback on the popularity of both currently stocked 
             and potential food items. Our main aim is to assist food bank managers in selecting items that are well-liked and less likely to expire, 
@@ -33,13 +42,20 @@
               “Monthly,” “Bi-Weekly,” and “Weekly.” Furthermore, clients have the option to abstain from voting on any specific item.
             </p>
             <h6>Filtering & Sorting:</h6>
-            <p>Users can organize and filter food items according to:</p>
-            <span><h6>Dietary Restrictions/Allergens:</h6>Dairy, Eggs, Nuts, Soy, Wheat, Shellfish, Fish, Sesame.</span>
-            <span><h6>Dietary Preferences:</h6>Vegan, Pescatarian, Vegetarian, Keto, Paleo, Mediterranean, Low-Carb, Whole, Low-FODMAP, Low-Salt. 
+            <h6>Users can organize and filter food items according to:</h6>
+            <h6>Dietary Restrictions/Allergens:</h6>
+            <p>
+              Dairy, Eggs, Nuts, Soy, Wheat, Shellfish, Fish, Sesame.
+            </p>
+            <h6>Dietary Preferences:</h6>
+            <p>
+              Vegan, Pescatarian, Vegetarian, Keto, Paleo, Mediterranean, Low-Carb, Whole, Low-FODMAP, Low-Salt. 
               A toggle functionality allows users to display only food items that are free from their designated allergens. Items that do not meet the criteria are 
-              categorized as “Never” and “Skip” in the dietary preference filtering.</span>
+              categorized as “Never” and “Skip” in the dietary preference filtering.
+            </p>
             <h6>User Interaction:</h6>
-            <p>Clients are able to submit comments to provide supplementary feedback, raise dietary concerns, or propose suggestions. Each user will maintain a profile 
+            <p>
+              Clients are able to submit comments to provide supplementary feedback, raise dietary concerns, or propose suggestions. Each user will maintain a profile 
               to store personal information and dietary preferences, thereby enhancing future interactions.
             </p>
             <h6>Results & Administration:</h6>
@@ -50,135 +66,203 @@
             </p>
             <h6>Future Interactions:</h6>
             <p>
-              We would like to include an inventory option in future to add additional data for the food banks to be able to most effectively use what they have to serve the most people.
+              We would like to include an inventory option in future to add additional data for the food banks to be able to most effectively use what they have, to serve 
+              the most people.
             </p>
-            <h5>Models:</h5>
-            <div>
-              <label>Use Case Scenario</label>
-              <img src="/assets/images/UseCaseScenario.jpg" alt="Use Case Scenario"></img>
-            </div>
-            <div>
-              <label>Class Diagram</label>
-              <img src="/assets/images/ClassDiagram.jpg" alt="Class Diagram"></img>
-            </div>
-            <div>
-              <label>Activity Diagram</label>
-              <img src="/assets/images/ActivityDiagram.jpg" alt="Activity Diagram"></img>
-            </div>
-            <div>
-              <label>State Diagram</label>
-              <img src="/assets/images/StateDiagram.jpg" alt="State Diagram"></img>
-            </div>
-            <div>
-              <label>Sequence Diagram</label>
-              <img src="/assets/images/SequenceDiagram.jpg" alt="Sequence Diagram"></img>
-            </div>
-            <div>
-              <label>Entity Relationship Diagram</label>
-              <img src="/assets/images/ERDDiagram.jpg" alt="Entity Relationship Diagram"></img>
+            <div class="container-fluid flex-grow">
+              <h5>Models:</h5>
+              <div class="row img-fluid mb-3">
+                <div class="col">
+                  <h6>Use Case Scenario -</h6>
+                  <img class="diagramImg" class="" src="/images/UseCaseScenario.jpg" alt="Use Case Scenario">
+                </div>
+                <div class="col">
+                  <h6>Class Diagram -</h6>
+                  <img class="diagramImg" src="/images/ClassDiagram.jpg" alt="Class Diagram"></img>
+                </div>
+                <div class="col">
+                  <h6>Activity Diagram -</h6>
+                  <img class="diagramImg" src="/images/ActivityDiagram.jpg" alt="Activity Diagram"></img>
+                </div>
+              </div>
+              <div class="row img-fluid mb-3">
+                <div class="col">
+                  <h6>State Diagram -</h6>
+                  <img class="diagramImg" src="/images/StateDiagram.jpg" alt="State Diagram"></img>
+                </div>
+                <div class="col">
+                  <h6>Sequence Diagram -</h6>
+                  <img class="diagramImg" src="/images/SequenceDiagram.jpg" alt="Sequence Diagram"></img>
+                </div>
+                <div class="col">
+                  <h6>Entity Relationship Diagram -</h6>
+                  <img class="diagramImg" src="/images/ERDDiagram.jpg" alt="Entity Relationship Diagram"></img>
+                </div>
+              </div>
             </div>
           </div>
           <div>
-            <span><h6>Project Considerations:</h6>For this project we wanted to use languages and a majority of technologies we were familiar with.</span>
+            <h6 class="pt-2">Project Considerations:</h6>
+            <p>
+              For this project we wanted to use languages and a majority of technologies we were familiar with.
+            </p>
             <h6>Technologies:</h6>
-            <ul>
-              <p>Languages:</p>
+            <label class="mx-2">Languages:</label>
+            <ul class="mx-2">
               <li>JavaScript</li>
               <li>C#</li>
             </ul>
-            <ul>
-              <p>Frameworks:</p>
+            <label class="mx-2">Frameworks:</label>
+            <ul class="mx-2">
               <li>Vite React</li>
               <li>ASP.net Web API</li>
             </ul>
-            <ul>
-              <p>Database:</p>
+            <label class="mx-2">Database:</label>
+            <ul class="mx-2">
               <li>SQLite</li>
             </ul>
-            <ul>
-              <p>Testing:</p>
+            <label class="mx-2">Testing:</label>
+            <ul class="mx-2">
               <li>xUnit</li>
               <li>Jest</li>
               <li>React Testing Library</li>
             </ul>
           </div>
-          <ul>
-            <h5>Developer - Team Role - Area of Work:</h5>
+          <h5>Developer - Team Role - Area of Work:</h5>
+          <ul class="mx-4">
             <li>Sarah Murphree - Lead - Planning Documents, Configuration, FrontEnd, Backend, Test, Deployment</li>
             <li>Sally Nyambura - Scribe - Planning Documents, FrontEnd</li>
             <li>Mitchell Cornett - Documentation - Original Idea, Planning Documents, Backend, Spoontacular API Configuration</li>
           </ul>
-          <h6>Link to Our Project</h6>
+          <h6 class="mt-2 mb-0">Link to Our Project</h6>
           <div>
               <a href="">StockMyFoodBank</a>
               <a href="/assets/Project Proposal.docx" download>
                 <button class="btn"><i class="fa fa-download"></i> Download</button>
               </a>
-              <p>How to Run Locally:</p>
-              <p>Run Client</p>
-              <p>npm i</p>
-              <p>npm i --save bootstrap @popperjs/core</p>
-              <p>npm i --save-dev sass</p>
-              <p></p>            
-              <p></p> 
-              <p>npm start</p>
-              <p>Run Server</p>
-              <p></p>
-              <p></p>
-              <p></p>
-              <p></p>
-              <p></p>
+              <h6 class="mt-2">Running Locally:</h6>
+              <label>Run Client</label>
+              <ul class="ulEdit">
+                <li>cd client</li>
+                <li>npm i</li>
+                <li>npm run dev **runs the development environment**</li>
+              </ul>
 
+              <label>Run Server</label>
+              <ul class="ulEdit">
+                <li>Set up a Spoontacular account and API key here https://spoonacular.com/</li>
+                <li>create a .env file with an api_key</li>
+                <li>Run the program</li>
+                <text>***note that the file does not initially come database data and will need to be populated with survey results</text>
+              </ul>
+
+              <label>Run Test</label>
+              <label>Client Tests:</label>
+              <ul>
+                <li>npm test</li>
+              </ul>
+              <label>Server Tests:</label>
+              <ul>
+                <li>Run in Visual Studio Test Explorer</li>
+              </ul>
           </div>
           <div>
             <h5>Team Running</h5>
             <p>
-              Our team developed in a agile style with weekly sprint meetings and retrospectives and developed tickets we assigned out created based on our user stories. Due to 
-              this being my teammates first full stack web application, I took lead and guidance position as possible. To start our coding portion we divided up the project into 
-              areas of interest, with Mitchell taking a first stab at the backend, Sally the frontend, and myself into a pair-programmer and guidance role after I had walked them 
-              through the inital configuration. As Sally and Mitchell found their feet and to hit assignment deadlines, I took on debugging, coding components, etc. As the prototype 
-              was completed I then took on the unit testing and deployment.
+              Our team developed in an agile style with weekly sprint meetings and retrospectives and developed tickets we assigned out created based on our user stories. 
+              Due to this being my teammates first full stack web application, I took lead and guidance position as possible. To start our coding portion, we divided up 
+              the project into areas of interest, with Mitchell taking a first stab at the backend, Sally the frontend, and myself into a pair-programmer and guidance role 
+              after I had walked them through the initial configuration. As Sally and Mitchell found their feet and to hit assignment deadlines, I took on debugging, coding 
+              components, etc. As the prototype was completed, I then took on the unit testing and deployment. 
             </p>
             <h6>Project Experience</h6>
+            <label>What did you learn during this experience?</label>
             <p>
-                What did you learn during this experience?
-                This was my first time using separate languages from frontend to backend and it was less complicated to configure than I thought. 
-                This was also my first time doing frontend unit tests and I got to learn how to do unit tests with Jest.
+              This was my first time using separate languages from frontend to backend and it was less complicated to configure than I thought. This was also my first time 
+              doing frontend unit tests and I got to learn how to do unit tests with Jest. One of the specific errors I ran into with Jest was having to set the fake 
+              components needed into a JSX format since Jest is standardly meant to function with just Javascript. I also had to set up interfaces and mock fetch calls to 
+              integrate the tests in both backend and frontend so the system would work while also running tests.   
 
-                What does what you experienced mean to you?
-                This was my first time working in a team of differing skill levels. The main experience, outside of learning Jest, that I gained from 
-                this was learning how to lead a team while balancing the skill levels. For this project, I had not experienced that before and so potenitally 
-                shot too high for the MVP. In the event of a next time I would definitely coach the project in a different, simpler direction. 
+              In the deployment process, I found out that SQLite is hard to deploy and had to create docker images and deploy the project with docker to make sure they 
+              worked. I also got to use Google's cloud run for the first time to deploy the project with the docker images. Something I didn't do in this project and regretted
+               was setting the URLs, ports, and other changing factors into environment variables. In the past, I've had projects that did this but took it for granted. I 
+               probably will always set those up going forward. I had not done them as I was worried about my team learning so much at once but in not setting the changing 
+               portions in environment variables, I set myself up for errors along the testing and deployment process.  
 
-                How does the meaning that you have derived from these experiences fit into your academic pursuits, your 
-                career and life goals, as well as your community and society as a whole?
-                  As far as academics, this project was a lesson for how future class projects could go and will guide which teams I might join and if in a lead 
-                  position, how I might lead. My main goal right now, is to land a internship and ultimately a dev 1 position as a software developer. This project 
-                  gave me a chance to practice front end unit tests in one of the most popular testing frameworks which will be valuable for future jobs. It was also
-                  more experience building full-stack applications and my first one in a compiled language. 
+              This was also the first group project I have been on where there was a dramatic difference in knowledge and a necessary restructuring of our team personal. 
+              To handle the difference in knowledge and being down a team member, we discussed what areas of the project we were each interested in learning more and working 
+              in. Based on that we decided to have one team member that preferred the backend as the backend lead and another that preferred the frontend to lead for that. 
+              This allowed them the opportunity to guide the project areas in ways that they felt they could best develop and avoid me controlling all aspects of the project. 
+              In order to avoid the project diverging from each other I created the structure, offered guidance, and worked on all portions of the project. Due to time 
+              constraints and the team's slow adoption of the tech stack we determined as a team, I took on additional responsibilities to make sure we had a working prototype.   
+            </p>
 
-                What strengths did you learn from this experience? 
-                I learned that I am good at thinking single responsibility in the planning stage. I was also glad for all my previous experience as I felt it helped me to 
-                advise the team on the project and feel comfortable taking on learning new technologies. 
+            <label>What does what you experienced mean to you?</label>
+            <p>
+              This was my first time working in a team of differing skill levels. The main experience, outside of learning Jest, that I gained from this was learning how to 
+              lead a team while balancing the skill levels. For this project, I had not experienced that before and so potentially shot too high for the MVP. In the event of 
+              a next time, I would definitely coach the project in a different, simpler direction. It did however provide an opportunity to teach and best-case scenario would
+               be to find teammates on similar skill levels to continue to have the opportunity 
+            </p>
 
-                What were the humbling moments and how did you break through?
-                Trying to configure Jest and React Testing Library with vite was very humbling. None of their getting started tutorials worked and all but the final tutorial
-                  we found offered solutions. I acknowledge that I'm still a beginner dev, so when nothing was working I reached out to my mentor to consult and help me find a 
-                  tutorial and debug as I configured the project. Another humbling experience was the actual coding of our MVP. I had advised that I didn't think our prototype
-                  was too complex but upon coding and getting our project completed. I reviewed some of the inital full-stack projects I had completed and realized that they were
-                  less complex and required less components. In the end, I took on coding quite a bit of the project to finish by the deadline. 
+            <label>
+              How does the meaning that you have derived from these experiences fit into your academic pursuits, your 
+              career and life goals, as well as your community and society as a whole?
+            </label>
+            <p>
+              As far as academics, this project was a lesson for how future class projects could go and will guide which teams I might join and if in a lead position, how I 
+              might lead. My main goal right now is to land an internship and ultimately a dev 1 position as a software developer. This project gave me a chance to build a 
+              project using different codes for the front vs back end, to practice front end unit tests in one of the most popular testing frameworks and use docker containers
+               which will all be valuable for future jobs. It was also more experience building full-stack applications for my portfolio and my first one in a compiled 
+               language.  
+            </p>
+            
+            <label>What strengths did you learn from this experience? </label>
+            <p>
+              I learned that I am good at thinking about single responsibility in the planning stage. I was also glad for all my previous experience as I felt it helped me to 
+              advise the team on the project and feel comfortable taking on learning new technologies. 
+            </p>
+            
+            <label>What were the humbling moments and how did you break through?</label>
+            <p>
+              Trying to configure Jest and React Testing Library with Vite was very humbling. None of their getting started tutorials worked and all but the final tutorial we 
+              found offered solutions. I acknowledge that I'm still a beginner dev, so when nothing was working, I reached out to my mentor to consult and help me find a 
+              tutorial and debug as I configured the project.  
 
-                What are the next steps for the project?  What remains from your original vision for further development?
-              For a full prototype the only remaining feature to finish would be to test a filter feature and integrating user roles. For what would be needed for the complete 
+              Another humbling experience was the actual coding of our MVP. I had advised that I didn't think our prototype was too complex but upon coding and getting our 
+              project completed. I reviewed some of the initial full-stack projects I had completed and realized that they were less complex and required less components. In 
+              the end, I took on coding quite a bit of the project to finish by the deadline.  
+
+              Also, I had not tested the deployment of our tech stack with proof of concept before we built the project. Because of that it required more time working on 
+              configurations when setting up the testing environments and deployment. For short term projects with a quick due date, I think in future I would have not let 
+              the stack research part of planning to be rushed. Since we didn't choose a common stack there were less resources available to help during the deployment process.  
+            </p>
+
+            <label>What are the next steps for the project?  What remains from your original vision for further development?</label>
+            <p>
+              For a full prototype the only remaining feature to finish would be to test a filter feature and integrating user roles. For what would be needed for a complete 
               solution, see the above full system summary. 
             </p>
             <h6>Advice & Lessons Learned</h6>
-            <p>
-                - When developing a full-stack project in a group with beginners, it can be helpful to find or build the project structure 
+            <ul>
+              <li>
+                When developing a full-stack project in a group with beginners, it can be helpful to find or build the project structure 
                 based on a tutorial and use popular systems so there are many resources available.
-                - Configure Jest at the beginning of the project configuration process as it can be difficult to do once code is established 
-                and it's better practice to write the unit tests as you go.
-            </p>
+              </li>
+              <li>
+                Configure Jest at the beginning of the project configuration process as it can be difficult to do once code is established and its better to practice writing 
+                the unit tests as you go. 
+              </li>
+              <li>
+                Really research your tech stack before confirming and developing. If you don't have a plan for how testing and deployment factor in, the configuration process 
+                with developed can mean having to rework what has already been developed a few times as you try to figure out how to make it work.  
+              </li>
+              <li>
+                Another lesson that was learned on our team was to ask for help. As I like to say, "coding is a team sport". Whether it be following the 20 minute rule or 
+                just when you've struggled with something, don't let it go into multiple days. Remember that asking for help also gives the other team members a chance to 
+                learn as well.
+              </li>
+            </ul>
           </div>
         </div>
       </div>  
